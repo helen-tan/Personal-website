@@ -41,3 +41,6 @@ body {
 /**
 * Your Website CSS Styles
 **/
+.navbar-fixed{
+  background-color: black;
+}
