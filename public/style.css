@@ -32,6 +32,11 @@ body {
     max-width: 100%;
 }
 
+.header-banner{
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (min-width: 993px) {
     .container {
         width: 75%;
@@ -41,6 +46,4 @@ body {
 /**
 * Your Website CSS Styles
 **/
-.navbar-fixed{
-  background-color: black;
-}
+
