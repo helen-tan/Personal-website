@@ -51,6 +51,10 @@ body {
   color: #363333;
 }
 
+.myPicture {
+  width: auto;
+}
+
 footer {
   background-color: #363333;
   height: 100px;
