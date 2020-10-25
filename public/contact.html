@@ -6,20 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <title>Helen's Webpage</title>
-    <link rel="icon" href="https://cdn.glitch.com/8ca89b51-55ff-45bb-829e-96c5af885e05%2Fhot-coffee-64.png?v=1603170233064" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/8ca89b51-55ff-45bb-829e-96c5af885e05%2Fhot-coffee-64.png?v=1603170233064"
+      type="image/x-icon"
+    />
 
     <link rel="manifest" href="/manifest.json" />
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="apple-mobile-web-app-title" content="Lovely App" />
-    <link rel="apple-touch-icon" href="https://cdn.glitch.com/2345195f-6b17-42cd-9f14-8230736b8a90%2Ficon-512x512.png" />
+    <link
+      rel="apple-touch-icon"
+      href="https://cdn.glitch.com/2345195f-6b17-42cd-9f14-8230736b8a90%2Ficon-512x512.png"
+    />
 
     <meta name="description" content="Helen's Webpage" />
 
@@ -27,14 +40,19 @@
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
   </head>
-  
+
   <body>
     <div class="main-container">
       <!-- Start of Navigation Bar -->
       <div class="navbar-fixed">
         <nav class="black">
           <div class="nav-wrapper">
-            <a href="#!" class="brand-logo left"><img src="https://cdn.glitch.com/8ca89b51-55ff-45bb-829e-96c5af885e05%2FHT-logo.png?v=1603175164107" width="150px" height="auto"></a>
+            <a href="#!" class="brand-logo center"
+              ><img
+                src="https://cdn.glitch.com/8ca89b51-55ff-45bb-829e-96c5af885e05%2FHT-logo.png?v=1603175164107"
+                width="150px"
+                height="auto"
+            /></a>
             <button id="butInstall" aria-label="Install" hidden></button>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger">
               <i class="material-icons">menu</i>
@@ -51,48 +69,48 @@
       <!-- Navigation Bar on Mobile Devices -->
       <ul class="sidenav" id="mobile-demo">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
       <!-- End of Navigation Bar -->
 
       <!-- Start of Site Content -->
-      
+
       <!--Start of Slider-->
       <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="https://cdn.glitch.com/8ca89b51-55ff-45bb-829e-96c5af885e05%2Fcafe-banner.jpg?v=1603172662790"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Reach out to me today.</h3>
-          <h5 class="light grey-text text-lighten-3">Look around to learn more about me</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
+        <ul class="slides">
+          <li>
+            <img
+              src="https://cdn.glitch.com/8ca89b51-55ff-45bb-829e-96c5af885e05%2Fcafe-banner.jpg?v=1603172662790"
+            />
+            <!-- random image -->
+            <div class="caption left-align">
+              <h3>Reach out to me today.</h3>
+              <!--<h5 class="light grey-text text-lighten-3">Look around to learn more about me</h5>-->
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://cdn.glitch.com/8ca89b51-55ff-45bb-829e-96c5af885e05%2Fcats-banner.jpg?v=1603601923680"
+            />
+            <!-- random image -->
+          </li>
+        </ul>
+      </div>
       <!--End of Slider-->
-      
-      
+
       <div class="container">
         <h1>Contact Form</h1>
         <form>
           <label for="first-name">First Name:</label>
-          <input type="text" id="first-name"><br>
+          <input type="text" id="first-name" /><br />
           <label for="last-name">Last Name:</label>
-          <input type="text" id="last-name"><br>
+          <input type="text" id="last-name" /><br />
           <label>Email Address:</label>
-          <input type="email" id="email-address" required><br>
-          
-          <input type="submit">
+          <input type="email" id="email-address" required /><br />
+
+          <input type="submit" />
         </form>
-       
       </div>
       <!-- End of Site Content -->
     </div>
@@ -101,5 +119,9 @@
     <script src="/scripts/init.js"></script>
     <script src="/scripts/client.js"></script>
     <script src="/scripts/install.js"></script>
+
+    <footer>
+      <p>All Rights Reserved</p>
+    </footer>
   </body>
 </html>
