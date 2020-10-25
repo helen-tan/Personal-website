@@ -55,6 +55,15 @@ body {
   width: auto;
 }
 
+.aboutMe {
+  color: #e16428;
+}
+
+.myExperience-title{
+  font-size: 50px;
+  text-align: center;
+}
+
 footer {
   background-color: #363333;
   height: 100px;
