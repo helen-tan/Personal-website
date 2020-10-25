@@ -52,7 +52,9 @@ body {
 }
 
 .myPicture {
-  width: auto;
+  margin-left:auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 .aboutMe {
