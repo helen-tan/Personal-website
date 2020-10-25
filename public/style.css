@@ -46,11 +46,12 @@ footer p {
   .container {
     width: 75%;
   }
-  .brand-logo {
-    
-  }
 }
 
 /**
 * Your Website CSS Styles
 **/
+
+.nav-wrapper {
+  background-color: #202020 !important;
+}
