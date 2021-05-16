@@ -1,6 +1,7 @@
-# Course Capstone Project Starter Kit
+# A Website to Introduce Myself
 
-This Glitch PWA starter kit is based on the `hello-express` project in Glitch and files from [Google PWA CodeLabs][1]. 
+Hello! This project is a personal website that I have worked on as a capstone project of a Web App course conducted by Smart Academy.
+It is built with a Glitch Progressive Web App (PWA) starter kit is based on the `hello-express` project in Glitch and files from [Google PWA CodeLabs][1]. 
 
 Consists of a server that serves a webpage, its resources, and some data.
 
